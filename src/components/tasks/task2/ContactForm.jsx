@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { createPortal } from "react-dom";
-import { Button, Field, Input } from "../shared";
+import { Button, Field, Input } from "../../shared";
 import Notification from "./Notification";
 
 export default function ContactForm() {

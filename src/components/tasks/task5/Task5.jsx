@@ -2,7 +2,7 @@ import CssModulesProductCard from "./CssModulesProductCard";
 import StyledProductCard from "./StyledProductCard";
 import TailwindProductCard from "./TailwindProductCard";
 
-export default function Task5() {
+export function Task5() {
   return (
     <article className="space-y-8">
       <h1 className="text-xl text-center">

@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../shared";
+import { Button } from "../../shared";
 
 class ErrorBoundary extends React.Component {
   constructor(props) {

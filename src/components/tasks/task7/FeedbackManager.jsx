@@ -1,4 +1,4 @@
-import { Button, Field, Input } from "../shared";
+import { Button, Field, Input } from "../../shared";
 import { useFeedback } from "./useFeedback";
 
 export default function FeedbackManager() {

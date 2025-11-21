@@ -1,7 +1,7 @@
 import { Link } from "react-router";
-import { Button } from "../shared";
+import { Button } from "../../shared";
 
-export default function NotFoundPage() {
+export function NotFoundPage() {
   return (
     <div>
       <h1>404 - Page Not Found</h1>

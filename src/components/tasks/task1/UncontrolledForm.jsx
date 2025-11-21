@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { Button, Input, Field } from "../shared";
+import { Button, Input, Field } from "../../shared";
 
 export default function UncontrolledForm() {
   const questionsRef = useRef("");

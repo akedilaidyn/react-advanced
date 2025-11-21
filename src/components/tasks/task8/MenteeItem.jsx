@@ -1,6 +1,6 @@
 import { memo } from "react";
 import { heavyComputation } from "./utils/heavyComputation";
-import { Button } from "../shared";
+import { Button } from "../../shared";
 
 const MenteeItem = memo(({ mentee, onRemove, onSelect }) => {
   console.log("render ", mentee.id);

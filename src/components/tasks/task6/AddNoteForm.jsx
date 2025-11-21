@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { NotesContext } from "./NotesContext";
-import { Field, Input, Button } from "../shared";
+import { Field, Input, Button } from "../../shared";
 
 export default function AddNoteForm() {
   const { addNote } = useContext(NotesContext);
@@ -10,6 +10,8 @@ export default function AddNoteForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     addNote({ id: Date.now(), mentee: name, content });
+    setName("");
+    setContent("");
   };
 
   return (

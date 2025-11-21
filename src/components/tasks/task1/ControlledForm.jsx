@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, Input, Field } from "../shared";
+import { Button, Input, Field } from "../../shared";
 
 export default function ControlledForm() {
   const [questions, setQuestions] = useState("");

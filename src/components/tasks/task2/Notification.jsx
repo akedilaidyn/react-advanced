@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Button } from "../shared";
+import { Button } from "../../shared";
 
 export default function Notification({ isValid, onClose }) {
   useEffect(() => {

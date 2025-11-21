@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Button } from "../shared";
+import { Button } from "../../shared/Button";
 
-export default function Task4() {
+export function Task4() {
   const [shouldCrash, setShouldCrash] = useState(false);
 
   if (shouldCrash) {

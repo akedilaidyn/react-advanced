@@ -1,15 +1,20 @@
 import { lazy, StrictMode, Suspense } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router";
-import RootLayout from "./components/task9/RootLayout.jsx";
-import NotFoundPage from "./components/task9/NotFound.jsx";
+import { RootLayout, NotFoundPage } from "./components/tasks/task9";
+import ErrorBoundary from "./components/tasks/task4/ErrorBoundary";
 import App from "./App.jsx";
 import "./index.css";
-import ErrorBoundary from "./components/task4/ErrorBoundary.jsx";
 
-const MentorPage = lazy(() => import("./components/task9/MentorPage.jsx"));
-const MenteePage = lazy(() => import("./components/task9/MenteePage.jsx"));
-const FeedbackPage = lazy(() => import("./components/task9/Feedback.jsx"));
+const MentorPage = lazy(() =>
+  import("./components/tasks/task9/MentorPage.jsx")
+);
+const MenteePage = lazy(() =>
+  import("./components/tasks/task9/MenteePage.jsx")
+);
+const FeedbackPage = lazy(() =>
+  import("./components/tasks/task9/Feedback.jsx")
+);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

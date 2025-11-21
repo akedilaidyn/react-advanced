@@ -1,7 +1,7 @@
 import { Outlet } from "react-router";
-import Navbar from "../shared/Navbar";
+import Navbar from "../../shared/Navbar";
 
-export default function RootLayout() {
+export function RootLayout() {
   return (
     <>
       <header className="bg-neutral-950 text-white h-18 mb-8">

@@ -1,0 +1,40 @@
+.wrapper {
+  max-width: 24rem;
+  border-radius: 0.25;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #d1d5db;
+}
+
+.image {
+  width: 100%;
+}
+
+.content {
+  padding: 1rem 1.5rem;
+}
+
+.button {
+  background-color: oklch(62.3% 0.214 259.815);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: oklch(54.6% 0.245 262.881);
+  }
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  color: oklch(37.3% 0.034 259.733);
+  font-size: 1rem;
+  line-height: 1.5;
+}

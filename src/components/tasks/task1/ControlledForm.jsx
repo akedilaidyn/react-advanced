@@ -4,7 +4,7 @@ import { Button, Input, Field } from "../../shared";
 export default function ControlledForm() {
   const [questions, setQuestions] = useState("");
   const questionsError =
-    questions.length < 4 ? "Questions must be at least 4 characters long." : "";
+    questions.length < 4 ? "Questions must be at least 4 characters long" : "";
 
   const handleSubmit = (event) => {
     event.preventDefault();

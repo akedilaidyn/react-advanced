@@ -10,22 +10,15 @@ import Task8 from "./components/task8/Task8";
 
 export default function App() {
   return (
-    <ErrorBoundary>
-      <header className="bg-neutral-950 text-white h-18 mb-8">
-        <div className="max-w-7xl mx-auto h-full flex items-center">
-          <h1 className="font-bold text-lg">React Advanced Tasks</h1>
-        </div>
-      </header>
-      <main className="flex flex-col max-w-7xl mx-auto space-y-8">
-        <Task1 />
-        <Task2 />
-        <Task3 />
-        <Task4 />
-        <Task5 />
-        <Task6 />
-        <Task7 />
-        <Task8 />
-      </main>
-    </ErrorBoundary>
+    <>
+      <Task1 />
+      <Task2 />
+      <Task3 />
+      <Task4 />
+      <Task5 />
+      <Task6 />
+      <Task7 />
+      <Task8 />
+    </>
   );
 }

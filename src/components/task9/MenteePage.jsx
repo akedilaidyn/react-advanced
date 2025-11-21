@@ -1,0 +1,3 @@
+export default function MenteePage() {
+  return <div>Mentee Page</div>;
+}
